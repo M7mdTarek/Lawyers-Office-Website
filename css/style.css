@@ -1,0 +1,116 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+nav .navbar-collapse{
+    justify-content: space-between;
+}
+h1.home{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 50px;
+}
+table{
+    margin: 100px auto;
+}
+thead{
+    background-color: #526071;
+    text-align: center;
+
+}
+th{
+    border: none !important;
+}
+table td{
+    background-color: #52607180;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+form{
+    padding: 15px;
+    border: 10px solid #343a40;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+form h1{
+    margin: 10px auto 20px;
+    width: fit-content;
+}
+form label{
+    display: block;
+    margin: 10px 0;
+}
+form input{
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    color: black;
+}
+form input[type = "file"]{
+    color: white;
+}
+form select{
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    color: black;
+}
+form select option{
+    color: black;
+}
+form textarea{
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+}
+button.update{
+    margin-top: 10px;
+}
+.table{
+    width: 80%;
+}
+.card{
+    margin: 20px auto;
+    width: 40%;
+}
+.card li{
+    background-color: black;
+
+}
+.card a{
+    width: 100%;
+}
+.card-body{
+    background-color: black;
+}
+form.logout{
+    padding: 0;
+    border: none;
+    margin: 0;
+    width: fit-content;
+}
+.profile{
+    border: none;
+}
+.profile ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile ul li{
+    width: 50%;
+    font-weight: bold;
+}
+.loginform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
